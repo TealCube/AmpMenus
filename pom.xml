@@ -16,8 +16,8 @@
 
     <repositories>
         <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
+            <id>spigot-repo</id>
+            <url>http://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
     </repositories>
 
@@ -25,9 +25,9 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.7.9-R0.3-SNAPSHOT</version>
+            <version>1.8.3-R0.1-SNAPSHOT</version>
             <type>jar</type>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -107,14 +107,14 @@
 
     <distributionManagement>
         <repository>
-            <id>greatman-repo</id>
+            <id>tealcube-repo</id>
             <name>Public Releases</name>
-            <url>http://repo.greatmancode.com/content/repositories/releases/</url>
+            <url>http://tealcube.com/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>greatman-repo</id>
+            <id>tealcube-repo</id>
             <name>Public Snapshots</name>
-            <url>http://repo.greatmancode.com/content/repositories/snapshots/</url>
+            <url>http://tealcube.com/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
